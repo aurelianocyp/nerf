@@ -70,6 +70,7 @@ To optimize a low-res Fern NeRF:
 python run_nerf.py --config config_fern.txt
 ```
 After 200k iterations (about 15 hours), you should get a video like this at `logs/fern_test/fern_test_spiral_200000_rgb.mp4`:
+报错： read() got an unexpected keyword argument 'ignoregamma' https://github.com/bmild/nerf/issues/190
 
 ![ferngif](https://people.eecs.berkeley.edu/~bmild/nerf/fern_200k_256w.gif)
 

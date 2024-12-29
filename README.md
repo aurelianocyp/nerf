@@ -28,6 +28,7 @@ conda env create -f environment.yml
 ```
 可能需要进入llff下载requirements
 然后pip install -r requirements.txt；sudo apt-get install libglfw3-dev
+
 You will also need the [LLFF code](http://github.com/fyusion/llff) (and COLMAP) set up to compute poses if you want to run on your own real data.
 
 ## What is a NeRF?
